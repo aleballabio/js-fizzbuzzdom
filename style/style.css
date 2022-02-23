@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    max-width: 100%;
+    background-color: rgb(35, 16, 139);
+}
+
+h1 {
+    font-size: 72px;
+    padding: ;
+}
+
+body > div {
+    max-width: 1200px;
+    margin: 100px auto;
+    background-color: rgb(192, 58, 17);
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    flex-basis: 10%;
+    margin: 8px;
+    height: 100px;
+    border-radius: 3px;
+}
+
+.tre {
+    background-color: yellow;
+}
+
+.cinque {
+    background-color: blue;
+}
+
+.cinque.tre {
+    background-color: yellowgreen;
+}
