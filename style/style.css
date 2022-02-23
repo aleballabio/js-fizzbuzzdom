@@ -10,14 +10,14 @@ html {
 
 body {
     max-width: 100%;
-    background-image: url(../img/persona5pattern.jpg);
+    background-image: url(../img/persona5pattern.png);
     background-repeat: repeat;
-    background-size: contain;
 }
 
 h1 {
     font-size: 72px;
     padding: 10px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 body > div {
